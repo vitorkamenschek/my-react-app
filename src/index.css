@@ -1,0 +1,48 @@
+.card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.card .card-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-button {
+  background-color: hsl(0, 0%, 0%);
+  border: solid 1px hsl(214, 100%, 60%);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card .card-button:hover {
+  background-color: hsl(214, 100%, 60%);
+}
+
+.card .card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card .card-description {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
